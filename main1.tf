@@ -6,7 +6,6 @@ terraform {
   }
 }
 
-
 # Configure the FortiOS Provider
 provider "fortios" {
 hostname = "xx.xxx.xx.xx"
