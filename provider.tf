@@ -7,6 +7,7 @@ terraform {
 }
 
 
+
 # Configure the FortiOS Provider
 provider "fortios" {
 hostname = var.hostname_value 
