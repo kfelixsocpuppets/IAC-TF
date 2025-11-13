@@ -2,7 +2,7 @@ resource "fortios_firewall_policy" "trname" {
   action             = "accept"
   logtraffic         = "utm"
   name               = "lan_access"
-  policyid           =  8881
+  policyid           =  8000  # I select the 8000-8999 thousand group forthe creation of Terraform rules
   schedule           = "always"
   comments           = "MANAGED BY TERRAFFORM ${local.current_date} SOCPUPPETS "
 
