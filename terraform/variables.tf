@@ -1,6 +1,6 @@
 # variables.tf
 
-# all variables should be defined in a variable.tf
+# all variables should be defined in a variable.tf file 
 
 variable "hostname_value" {
   description = "The desired hostname for the specifc resource"
