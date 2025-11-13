@@ -105,4 +105,17 @@ Now let's dive into a simple demo to get you started.
 * Configure our provider 
 * Create some terraform code.
 
+
+TIPS and Suggestions
+===
+
+A few ideals to think about
+* break your main.tf into multiple .tf to cover system cfg items like system/interface/address/routing/policy.tf
+* For Auditing, define local TS and apply it in the comments
+* For items managed by Terraform, I typically recommend applying some type of wording like "Managed by Terraform"
+* Never provide or re-use the same API-key
+* For enhanced security, Api-key should be encrypted and vaulted
+* Always apply a trusthost and specify your Terraform Iac server
+
+
 <!-- end_slide -->
