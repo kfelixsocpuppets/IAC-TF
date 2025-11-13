@@ -122,6 +122,7 @@ A few ideals to think about
 
 ```bash
 terraform show
+terraform import fortios_firewall_policy.trname3 9
 terraform show
 ```
 
