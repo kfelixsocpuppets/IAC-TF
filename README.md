@@ -1,9 +1,9 @@
-# Fortios IC
+# Fortios IaC
 
 A comprehensive guide for setting up a fortigate and examples to work with 
 ## Table of Contents
 - [Overview](#overview)
-- nstall Terraform
+- Install Terraform
 - Install Pulumi
 - Exampl Codes
  
