@@ -1,8 +1,8 @@
 # dummy address for holding DO NOT REMOVE  THIS ADDRESS IS POPULATE IN ADDRGRP as seed
 
-resource "fortios_firewall_address" "dumbass" {
+resource "fortios_firewall_address" "dumbaddress" {
 
-  name   = "dumbass"
+  name   = "dumbaaddress"
 
   subnet = "169.254.66.66/32"
   
