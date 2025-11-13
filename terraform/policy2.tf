@@ -17,6 +17,14 @@ resource "fortios_firewall_policy" "trname3" {
     name = "wan1"
   }
 
+  srcaddr {
+    name = "all"
+  }
+
+  srcintf {
+    name = "lan"
+  }
+  
   service {
     name =  "HTTPS"
   }
@@ -43,14 +51,6 @@ resource "fortios_firewall_policy" "trname3" {
     
   service {
     name = "VNC"
-  }
-  
-  srcaddr {
-    name = "all"
-  }
-
-  srcintf {
-    name = "lan"
   }
 }
 
