@@ -5,8 +5,8 @@ A comprehensive guide for setting up a fortigate and examples to work with
 - [Overview](#overview)
 - Install Terraform
 - Install Pulumi
-- Exampl Codes
+- Example Codes
  
  
  
-**Note**: Ensure all configurations are adjusted according to your specific environment and requirements.
+**Note**: Ensure API-key are stored secretly 
