@@ -15,7 +15,7 @@ resource "fortios_firewall_policy" "trname" {
   }
 
   service {
-    name = ["HTTP", "HTTPS", "DNS"] 
+    name = "HTTPS"
   }
 
   srcaddr {
